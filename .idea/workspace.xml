@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cbf5b9bf-16a2-49c2-8477-96cf4ac24339" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JL-AppointmentScheduler.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/AddAppointmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/CalendarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/ReportsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/UpdateAppointmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/UpdateContactController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/AppointmentQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/CustomerQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/DBCountries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/JDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/UserQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/menu-burger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/stats.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/users-alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Appointments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Countries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Customers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Errors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/addAppointment-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/calendar-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/contacts-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/login-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/reports-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/updateAppointment-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/updateContact-view.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
+  </component>
+  <component name="ProjectId" id="2N1MStqsHmBWLuowvDpROnR4cO4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java Course/JLJavaFXMLInventoryApplication" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\C195\JL-AppointmentScheduler\src\icons" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Appoinment_Scheduler" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="JL-AppointmentScheduler" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.fxml,javafx.controls,javafx.graphics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbf5b9bf-16a2-49c2-8477-96cf4ac24339" name="Changes" comment="" />
+      <created>1678827140170</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678827140170</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
+  </component>
+</project>
