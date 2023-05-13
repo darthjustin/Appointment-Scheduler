@@ -23,8 +23,8 @@ import java.net.URL;
 import java.time.ZoneId;
 import java.util.ResourceBundle;
 
-/** Controller handling the methods for the Add Customer screen. */
-public class AddCustomerController implements Initializable {
+/** Controller handling the methods for the Update Customer screen. */
+public class UpdateCustomerController implements Initializable {
 
     private Stage stage;
 
@@ -55,7 +55,17 @@ public class AddCustomerController implements Initializable {
     @FXML
     private Label userId;
 
-    /** Initializes the Add Customer screen and pre-populates input fields.
+    private static Customer updatedCustomer;
+
+    /** Retrives the selected Customer information from the Customers screen.
+     * @param customer The selected Customer object from the Customers screen. */
+    public static void sendCustomer (Customer customer){
+        updatedCustomer = customer;
+    }
+
+    /** Initializes the Update Customer screen and populates combo boxes.
+     * Retrieves existing customer information from the selected customer
+     * on the customer screen to pre-populate input fields.
      * @param url The URL of the view being loaded.
      * @param resourceBundle The ResourceBundle used to determine the Locale.*/
     @Override
@@ -63,8 +73,15 @@ public class AddCustomerController implements Initializable {
 
         userId.setText("User: " + LoginController.userName);
         location.setText("Location: " + ZoneId.systemDefault());
-        contactIdText.setText(String.valueOf(CustomerQuery.getNextCustID()));
+        System.out.println(updatedCustomer.getCustomerName() + " " + updatedCustomer.getDivisionId());
+        contactIdText.setText(String.valueOf(updatedCustomer.getCustomerId()));
+        nameText.setText(updatedCustomer.getCustomerName());
+        addressText.setText(updatedCustomer.getAddress());
+        postalCodeText.setText(updatedCustomer.getPostalCode());
+        phoneNumText.setText(updatedCustomer.getPhoneNum());
         countryCombo.setItems(CountryQuery.getAllCountries());
+        countryCombo.setValue(CountryQuery.getCountryByDivision(updatedCustomer.getDivisionId()));
+        divisionCombo.setValue(CountryQuery.getDivisionByID(updatedCustomer.getDivisionId()));
 
     }
 
@@ -98,7 +115,7 @@ public class AddCustomerController implements Initializable {
         }
     }
 
-    /** Clears all fields on the Add Customer form.
+    /** Clears all fields on the Update Customer form.
      * @param event An ActionEvent object created when the user clicks the Clear button.
      */
     @FXML
@@ -134,7 +151,7 @@ public class AddCustomerController implements Initializable {
 
             Customer customer = new Customer(custID, name, address, postal,phone, divisionId, country, divName);
 
-            if(CustomerQuery.insertCustomer(customer) > 0){
+            if(CustomerQuery.updateCustomer(customer) > 0){
                 System.out.println("Insert Successful!");
 
                 Parent root = FXMLLoader.load(getClass().getResource("/view/customer-view.fxml"));

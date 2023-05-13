@@ -1,11 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddCustomerController">
+<AnchorPane minHeight="600.0" minWidth="1200.0" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddCustomerController">
    <children>
-      <Button layoutX="274.0" layoutY="147.0" mnemonicParsing="false" text="Button" />
+      <AnchorPane minHeight="50.0" prefHeight="50.0" prefWidth="900.0" style="-fx-background-color: #8CCDD0;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label layoutX="14.0" layoutY="12.0" text="Appointment Scheduler" AnchorPane.leftAnchor="14.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="userId" layoutX="709.0" layoutY="16.0" text="User: " AnchorPane.rightAnchor="325.0" />
+            <Label fx:id="location" layoutX="824.0" layoutY="16.0" text="Location: " AnchorPane.rightAnchor="100.0" />
+         </children></AnchorPane>
+      <AnchorPane minHeight="200.0" prefHeight="200.0" prefWidth="50.0" style="-fx-background-color: White;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="300.0" prefWidth="55.0" spacing="30.0" AnchorPane.topAnchor="20.0">
+               <children>
+                  <ImageView fitHeight="100.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <image>
+                        <Image url="@../icons/calendar.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="100.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/users-alt.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="100.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/stats.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="5.0">
+         <image>
+            <Image url="@../icons/user.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="55.0" layoutY="175.0" minHeight="200.0" minWidth="110.0" prefHeight="200.0" prefWidth="110.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="55.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <VBox prefHeight="300.0" prefWidth="110.0" spacing="30.0" AnchorPane.topAnchor="20.0">
+               <children>
+                  <Button accessibleRole="IMAGE_VIEW" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onActionShowAppointments" prefHeight="40.0" prefWidth="110.0" style="-fx-background-color: Transparent;" text="Appointments">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button accessibleRole="IMAGE_VIEW" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onActionShowCustomers" prefHeight="40.0" prefWidth="110.0" style="-fx-background-color: Transparent;" text="Customers">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button accessibleRole="IMAGE_VIEW" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onActionShowReports" prefHeight="40.0" prefWidth="110.0" style="-fx-background-color: Transparent;" text="Reports">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <Button accessibleRole="IMAGE_VIEW" alignment="BASELINE_LEFT" layoutY="396.0" mnemonicParsing="false" onAction="#onActionLogout" prefHeight="40.0" prefWidth="110.0" style="-fx-background-color: Transparent;" text="Logout" AnchorPane.bottomAnchor="10.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="165.0" layoutY="50.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="165.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <GridPane layoutX="324.0" layoutY="50.0" minWidth="320.0" prefHeight="450.0" prefWidth="320.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="275.0" AnchorPane.topAnchor="50.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="105.0" minWidth="160.0" prefWidth="160.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="160.0" minWidth="160.0" prefWidth="160.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label text="Customer ID:" GridPane.halignment="RIGHT" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="20.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Name:" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="20.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Address:" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="20.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Postal Code:" GridPane.halignment="RIGHT" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="20.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Phone Number:" GridPane.halignment="RIGHT" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="20.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Country:" GridPane.halignment="RIGHT" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="20.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="State/Province" GridPane.halignment="RIGHT" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="20.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <TextField fx:id="contactIdText" editable="false" promptText="Customer ID" GridPane.columnIndex="1" />
+                  <TextField fx:id="nameText" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <TextField fx:id="addressText" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextField fx:id="postalCodeText" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <TextField fx:id="phoneNumText" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <ComboBox fx:id="countryCombo" onAction="#onActionSelectDivisions" prefWidth="160.0" promptText="Select Country" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <ComboBox fx:id="divisionCombo" prefWidth="160.0" promptText="Select State/Province" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin></ComboBox>
+                  <Button mnemonicParsing="false" onAction="#onActionSave" prefWidth="45.0" text="Save" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                  <Button mnemonicParsing="false" onAction="#onActionClear" prefWidth="45.0" text="Clear" GridPane.columnIndex="1" GridPane.rowIndex="11">
+                     <GridPane.margin>
+                        <Insets left="53.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#onActionCancel" text="Cancel" GridPane.columnIndex="1" GridPane.rowIndex="11">
+                     <GridPane.margin>
+                        <Insets left="107.0" />
+                     </GridPane.margin>
+                  </Button>
+               </children>
+            </GridPane>
+         </children></AnchorPane>
    </children>
 </AnchorPane>
