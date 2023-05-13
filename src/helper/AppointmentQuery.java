@@ -20,6 +20,7 @@ import java.time.LocalTime;
 public class AppointmentQuery {
 
     /** Retrieves all appointments from the database.
+     * Converts the UTC-zoned Timestamp from the database and converts it to the user's local time.
      * @return An ObservableList of Appointment objects. */
     public static ObservableList<Appointments> getAllAppointments(){
         ObservableList<Appointments> appointmentsList = FXCollections.observableArrayList();

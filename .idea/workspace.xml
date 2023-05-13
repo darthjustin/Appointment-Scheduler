@@ -5,36 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbf5b9bf-16a2-49c2-8477-96cf4ac24339" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/helper/ContactQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper/DateTimeProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper/Errors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/AddAppointmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AddAppointmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/AddCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AddCustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/CalendarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CalendarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ReportsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ReportsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/UpdateAppointmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/UpdateAppointmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/UpdateContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/UpdateCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helper/AppointmentQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/AppointmentQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helper/CustomerQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/CustomerQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helper/JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/JDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helper/UserQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/UserQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Appointments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Appointments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Errors.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/addAppointment-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/addAppointment-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/addCustomer-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/addCustomer-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/calendar-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/calendar-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/contacts-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/appointments-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/appointments-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/customer-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/customer-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/login-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/reports-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/reports-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/updateAppointment-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/updateAppointment-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/updateContact-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/updateCustomer-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/updateCustomer-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/updateCustomer-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +93,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681517484688</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes">
+      <created>1684018653332</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684018653332</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changes">
+      <created>1684018713973</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684018713973</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changes">
+      <created>1684018794333</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684018794333</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

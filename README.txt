@@ -25,8 +25,8 @@ JavaFX: JavaFX-SDK-17.0.6
 Instructions to Run Program
 ***************************
 
-- Open the project in IntelliJ and update the path for the JDK version, JavaFX, and the JDBC.
-- Press run in IntelliJ.
+- Open the project in IntelliJ and insure the correct JavaFX version is installed.
+- Click the run button next to the Appointment_Scheduler configuration.
 - On the Login screen, use username: test and password: test (these are case sensitive) and then press the Login button.
 - Navigate through the program as needed to view/create/update appointments and controllers as well as view reports.
 
