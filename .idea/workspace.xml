@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbf5b9bf-16a2-49c2-8477-96cf4ac24339" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helper/AppointmentQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/AppointmentQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/addAppointment-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/addAppointment-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/addCustomer-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/addCustomer-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/appointments-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/appointments-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/customer-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/customer-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/login-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/reports-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/reports-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/updateAppointment-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/updateAppointment-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/updateCustomer-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/updateCustomer-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,16 +46,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysql-connector-j-8.0.32/mysql-connector-j-8.0.32.jar" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "G:/C195/JL-AppointmentScheduler"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\C195\JL-AppointmentScheduler\src\icons" />
@@ -114,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684018794333</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changes">
+      <created>1684019677468</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684019677468</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,7 +122,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes" />
